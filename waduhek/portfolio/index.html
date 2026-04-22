@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Your Name</h1>
+        <p class="subtitle">Web Developer | Designer | Your Profession</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a short bio about yourself here.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <!-- Add more skills -->
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul class="experience-list">
+                <li><strong>Job Title</strong> at Company (Year-Year)<br>Description of your role.</li>
+                <!-- Add more experience -->
+            </ul>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <a href="resume.pdf" target="_blank">Download Resume (PDF)</a>
+        </section>
+        <section id="cv">
+            <h2>CV</h2>
+            <a href="cv.pdf" target="_blank">Download CV (PDF)</a>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="mailto:your@email.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
